@@ -1,0 +1,62 @@
+/* App.css */
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container {
+  width: 20%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-container {
+  width: 80%;
+  padding: 20px;
+}
+
+.right-container h2 {
+  margin-bottom: 20px;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.task-item {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-right: 2.5%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.task-item.selected {
+  background-color: lightblue;
+}
+
+.task-item.done {
+  visibility: hidden;
+  width: 25%;
+}
+
+.task-item.selected .selection-box {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}

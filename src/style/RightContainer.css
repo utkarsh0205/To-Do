@@ -1,0 +1,16 @@
+.right-container {
+  width: 80%;
+
+  padding: 20px;
+}
+
+.heading-box {
+  text-align: center;
+  background-color: #333;
+  margin-bottom: 20px;
+}
+
+.heading-box h2 {
+  font-size: 24px;
+  color: #fcf7f7;
+}

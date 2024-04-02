@@ -1,0 +1,35 @@
+/* TaskItem.css */
+.task-item {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #242424;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  background-color: #272727;
+  color: #fff;
+}
+
+.task-item:hover {
+  background-color: #f0f0f0;
+  color: #070707;
+}
+
+.task-item.selected {
+  background-color: #797a7a;
+}
+
+.select-box {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #0099ff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
